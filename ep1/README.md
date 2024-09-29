@@ -39,7 +39,8 @@ Piękno kreatywnego kodowania często leży nie tylko w końcowym efekcie wizual
 #### Interdyscyplinarność
 Pomysł, że kodowanie jest pędzlem XXI wieku, odzwierciedla mieszanie technologii z tradycyjnymi formami sztuki. Jest to uznanie, że kodowanie nie jest już tylko dla inżynierów lub naukowców, ale nową formą umiejętności czytania i pisania, która pozwala każdemu angażować się w technologię w sposób kreatywny i ekspresyjny.
 
-### Inne dziedziny projektowania kreatywnego
+---
+### Przydatne pojęcia 
 
 #### Physical Computing
 Physical Computing polega na tworzeniu interaktywnych systemów, które mogą wchodzić w interakcje z otoczeniem i reagować. Często jest wykorzystywane w projektach kreatywnych, takich jak sztuka, projektowanie lub majsterkowanie, w których wykorzystuje się czujniki i małe komputery (takie jak mikrokontrolery: Arduino, ESP32,), aby przekształcać dane wejściowe ze świata rzeczywistego (takie jak światło, dźwięk lub ruch) w działania cyfrowe. Systemy te mogą również kontrolować urządzenia fizyczne, takie jak silniki, światła lub inny sprzęt, łącząc lukę między światem cyfrowym a fizycznym.
@@ -50,7 +51,18 @@ Actuators - siłowniki
 
 #### Digital Fabrication
 
+#### Generowanie proceduralne
+Generowanie proceduralne (ang. Procedural Generation, proc-gen) to technika, w której treści – takie jak obrazy, dźwięki, poziomy gier czy nawet całe światy wirtualne – są tworzone automatycznie przez algorytmy, a nie ręcznie przez człowieka. Jest często używane w grach wideo , ale też w sztuce generatywnej, gdzie algorytmy tworzą unikalne grafiki czy muzykę.
+- No Man's Sky, Minecraft
+- Minecraft
+- Dwarf Fortress
+  W kreatywnym kodowaniu, ta technika pozwala eksperymentować z różnymi zestawami reguł, prowadząc do powstania nieskończonej liczby wariacji danego projektu. Daje twórcom więcej swobody i pozwala na odkrywanie nowych, nieoczekiwanych wyników.
+
+#### Algorytmy ewolucyjne
+Algorytmy inspirowane procesem ewolucji biologicznej, które wykorzystują selekcję, mutację i krzyżowanie, by stopniowo generować coraz lepsze rozwiązania. W kreatywnym kodowaniu mogą służyć do tworzenia dynamicznych i złożonych struktur.
+
 ### Kategorie i ich przykłady zastosowań
+
 
 #### 1. Sztuka Generatywna (Generative Art)
 Tworzenie sztuki wizualnej i dźwiękowej przy użyciu algorytmów i kodu.
@@ -60,12 +72,11 @@ Tworzenie sztuki wizualnej i dźwiękowej przy użyciu algorytmów i kodu.
 - Algorytmiczna muzyka lub generowanie dźwięku.
 - Wizualizacje oparte na losowości lub złożonych modelach matematycznych.
 
-**Robert Hodgin** - Meander
-https://roberthodgin.com/project/meander
+[Robert Hodgin - Meander](https://roberthodgin.com/project/meander)
 
-**Patatap**
-https://patatap.com/
+[Patatap](https://patatap.com/)
 
+---
 #### 2. Instalacje/Rzeźby interaktywne
 
 Przykłady:
@@ -73,10 +84,11 @@ Przykłady:
 - Instalacje, w których ruchy fizyczne lub gesty kontrolują/tworzą efekty wizualne lub dźwiękowe.
 - Doświadczenia rozszerzonej rzeczywistości (AR) lub wirtualnej rzeczywistości (VR) w muzeach lub galeriach.
 
-**panGenerator**
-The Lightwaves - https://pangenerator.com/projects/the-lightwaves/
-Quantum of Peace - https://pangenerator.com/projects/quantum-of-peace/
+[panGenerator - The Lightwaves](https://pangenerator.com/projects/the-lightwaves/)
 
+[panGenerator - Quantum of Peace](https://pangenerator.com/projects/quantum-of-peace/)
+
+---
 #### 3. Wizualizacja danych
 Przedstawiania danych w wizualnie atrakcyjny sposób, który jest łatwiejszy do zrozumienia i zbadania.
 
@@ -85,12 +97,12 @@ Przedstawiania danych w wizualnie atrakcyjny sposób, który jest łatwiejszy do
 - Modele 3D punktów danych lub złożonych sieci.
 - Wizualizacje danych w czasie rzeczywistym (np. trendy giełdowe lub dane środowiskowe).
 
-**James Talmage and Damon Maneice** - The True Size of
-https://www.thetruesize.com/
+[The True Size of](https://www.thetruesize.com)
 
-**MorphoCode**
-https://morphocode.com/morphocode-explorer-preview/
-#### 4. Projektowanie i rozwój gier
+[MorphoCode](https://morphocode.com/morphocode-explorer-preview/)
+
+---
+#### 5. Projektowanie gier
 Tworzenie gier wideo lub interaktywnego storytellingu.
 
 **Przykłady:**
@@ -98,9 +110,10 @@ Tworzenie gier wideo lub interaktywnego storytellingu.
 - Interaktywne narracje lub gry z proceduralnie generowaną treścią.
 - Wirtualne środowiska do opowiadania historii lub eksploracji.
 
-**Jan Grabowski - Beyond Bazaar**
-https://jangraba.itch.io/beyond-bazaar-riddles-of-the-heart
-#### 5. Wearable  tech & fashion
+[Jan Grabowski - Beyond Bazaar](https://jangraba.itch.io/beyond-bazaar-riddles-of-the-heart)
+
+---
+#### 6. Wearable tech & fashion
 Osadzanie kodu w ubraniach lub akcesoriach w celu tworzenia responsywnej, adaptacyjnej lub interaktywnej mody.
 
 **Przykłady:**
@@ -108,11 +121,9 @@ Osadzanie kodu w ubraniach lub akcesoriach w celu tworzenia responsywnej, adapta
 - Noszone urządzenia, które reagują na dane wejściowe użytkownika (np. tętno, ruch).
 - Elementy mody, które integrują diody LED lub czujniki w celu ekspresji artystycznej.
 
-**Anouk Wipprecht - SpiderDress**
-https://www.instagram.com/p/CYPHmDoIY6k/?hl=en
+[Anouk Wipprecht - SpiderDress](https://www.instagram.com/p/CYPHmDoIY6k/?hl=en)
 
-**MIT Media Lab - DuoSkin**
-https://duoskin.media.mit.edu/
+[MIT Media Lab - DuoSkin](https://duoskin.media.mit.edu/)
 
 #### 6. Sztuka performatywna
 Używanie kodu w występach w czasie rzeczywistym, często w przypadku muzyki lub wizualizacji, gdzie proces kodowania jest częścią ekspresji artystycznej.
@@ -121,8 +132,11 @@ Używanie kodu w występach w czasie rzeczywistym, często w przypadku muzyki lu
 - Występy audiowizualne, które integrują elementy generatywne lub reaktywne.
 - Mapowanie projekcji w czasie rzeczywistym na budynkach lub scenach podczas wydarzeń na żywo.
 
-**NONOTAK**
-https://www.youtube.com/watch?v=0tWrL-40iZs
+[NONOTAK](https://www.youtube.com/watch?v=0tWrL-40iZs)
+
+[Ars Electronica Festival 2022](https://youtu.be/T8DMGbgHu3M?si=FJvI302FQX2-Js9L)
+
+---
 #### 7. Projektowanie i produkcja cyfrowa
 Projektowaniu i tworzeniu przedmiotów lub produktów o tematyce wzorniczej.
 
@@ -131,9 +145,11 @@ Projektowaniu i tworzeniu przedmiotów lub produktów o tematyce wzorniczej.
 - Drukowanie 3D lub sztuka obrabiana CNC.
 - Interaktywne oświetlenie lub struktury kinetyczne zintegrowane z przestrzeniami architektonicznymi.
 
-Staś Stupkiewicz - \_4XK\_
-https://www.instagram.com/p/BnnZjPYh3hJ/
+[Staś Stupkiewicz - \_4XK\_](https://www.instagram.com/p/Bk5TwplAz-1/)
 
+[Lines & Lines Lamp](https://www.instagram.com/p/C-M2uZsuMEz/)
+
+---
 #### 8. Robotyka i physical computing
 Łączenie kreatywnego kodowania z robotyką i urządzeniami fizycznymi w celu tworzenia instalacji artystycznych lub funkcjonalnych maszyn
 
@@ -142,38 +158,20 @@ https://www.instagram.com/p/BnnZjPYh3hJ/
 - Robotyka DIY sterowana za pomocą zakodowanych wzorców zachowań.
 - Automaty lub rzeźby kinetyczne, które reagują na bodźce środowiskowe.
 
-**Philipp Schmitt** - Raising Robotic Naives
-https://philippschmitt.com/archive/2018/work/robotic-natives.html
+[Philipp Schmitt - Raising Robotic Naives](https://philippschmitt.com/archive/2018/work/robotic-natives.html)
 
-#### 9. Narzędzia i aplikacje kreatywne
+---
+#### 9. Aplikacje kreatywne & Web
 Tworzenie oprogramowania lub platform, z których korzystają artyści i twórcy, aby tworzyć sztukę lub projektować.
 Przykłady:
 - Niestandardowe narzędzia projektowe (takie jak generatory graficzne, syntezatory dźwięku).
 - Oprogramowanie do modelowania lub animacji 3D stworzone dla artystów.
 - Aplikacje umożliwiające użytkownikom tworzenie sztuki cyfrowej za pomocą kodu, takie jak Processing lub **p5.js**.
 
+[Huncwot - Teatr Lalka](https://teatrlalka.pl/pl)
+[Zach Lieberman - Land Lines](https://lines.chromeexperiments.com/)
 
-### Web Design
-https://huncwot.com/ - "Crafting digital products that AI can only dream of."
-https://teatrlalka.pl/pl
-
-https://lines.chromeexperiments.com/
 W swoim projekcie Land Lines Lieberman używa uczenia maszynowego, zoptymalizowanych algorytmów i mocy karty, aby wykorzystać obrazy z Google Maps i dopasować je do rysunków widzów.
-
-### Generowanie proceduralne
-**No Man's Sky** - Mimo że gra nie została napisana w języku JavaScript, zastosowana w niej technika generowania proceduralnego pozwoliła na stworzenie 18 kwintylionów unikalnych planet.
-
-![[no-man-sky-pg.png]]
-
-**Dwarf Fortress**
-Kolejna wciągająca gra bez JavaScriptu, oferująca wpływowe spostrzeżenia na temat ideologii roguelike wokół twierdzy „ProcGen”, wzajemnego oddziaływania elementów sterowania survivalistowskich i anatomii, które wpływają na większość formacji RPG.
-
-![[dwarf-fortress-pg.png]]
-
----
-### Przerwa (15 min)
-
----
 
 
 
@@ -184,8 +182,6 @@ Kolejna wciągająca gra bez JavaScriptu, oferująca wpływowe spostrzeżenia na
 - Przedstawienie p5.js jako podstawowego zestawu narzędzi, z którego będą korzystać podczas kursu.
 - Krótkie omówienie zalet i możliwości p5.js
 - Przykłady w prezentacji działającego kodu
-
-
 
 ### Podstawy p5.js
 
@@ -205,5 +201,28 @@ Brief introduction about p5.js library, its creators and explain why it's suitab
 #### Konfiguracja środowiska programistycznego
 
 Aby rozpocząć pisanie kodu przy użyciu p5.js, musisz skonfigurować środowisko programistyczne, którego będziesz używać do pisania i zapisywania swoich programów. Do wyboru mamy edytor webowy [p5.js Web Editor](https://editor.p5js.org/), lub program do zainstalowania lokalnie [Visual Studio Code (VS Code)](https://code.visualstudio.com/).
+
+#### Pierwszy skecz w p5.js
+
+```javascript
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(220);
+}
+```
+
+```javascript
+function draw() {
+  background(220);
+  circle(200,200,100);
+}
+```
+
+funkcja `draw()` rysuję się w nieskończoność, ok 60 razy na sekundę (60-FPS).
+
+```javascript
 
 
