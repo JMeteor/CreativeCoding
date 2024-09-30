@@ -8,12 +8,6 @@
 
 ## Intro (~10 min)
 
-
-1. Przedstawienie siebie
-2. Dlaczego zainteresowałem się kreatywnym kodowaniem
-3. Opis przebiegu zajęć
-4. Ice breaker: przedstawienie się studentów i powiedzenia jednego faktu o sobie (pasji, zainteresowaniu)
-
 ## Wstęp do Creative Coding (~35 min)
 
 Celem tych lekcji jest ukazanie kodowania w nowym, szerszym kontekście. W nauce informatyki często koncentrujemy się na praktycznych umiejętnościach, takich jak bazy danych, systemy czy algorytmy. Choć są one istotne, mogą ograniczać nasze postrzeganie kodowania.
@@ -21,25 +15,26 @@ Celem tych lekcji jest ukazanie kodowania w nowym, szerszym kontekście. W nauce
 Kreatywność w programowaniu wnosi do niego elementy wyobraźni i twórczości, pozwalając na swobodną eksplorację pomysłów, zamiast sztywnego podążania za regułami. Kodowanie może być nie tylko logiczne, ale także ekspresyjne, stając się narzędziem do tworzenia interaktywnych instalacji, sztuki, gier czy urządzeń ubieralnych (wearables).
 
 
-
 ### Czym jest kreatywne kodowania?
 
 Kreatywne kodowanie to podejście do programowania, które łączy technologię z wyobraźnią. Zamiast skupiać się wyłącznie na rozwiązywaniu problemów technicznych, kreatywne kodowanie wykorzystuje kod jako narzędzie do ekspresji artystycznej i tworzenia innowacyjnych projektów, takich jak interaktywne instalacje, generatywna sztuka czy gry. To sposób na odkrywanie nowych możliwości technologii poprzez twórczą zabawę i eksperymentowanie.
 
-
-Koncepcję kodowania jako formy starego pędzla XXI wieku – **Informacja jako Medium**
+### Cechy kreatywnego kodowania
 
 #### Dane jako surowiec
-W kreatywnym kodowaniu informacje (dane) są często surowcem, którym manipulują artyści. Podobnie jak malarz miesza pigmenty, aby uzyskać pożądany kolor, kreatywny koder manipuluje danymi — czy to liczbami, tekstem, czy jakąkolwiek inną formą informacji — aby tworzyć wizualne i słuchowe wyniki.
-
-#### Dynamiczny i interaktywny
-Kodowanie pozwala artyście wyjść poza statyczne obrazy. Informacje można przetwarzać i wykorzystywać do tworzenia dynamicznych lub interaktywnych dzieł. Na przykład dzieło sztuki może się zmieniać w oparciu o dane w czasie rzeczywistym, dane wprowadzane przez użytkownika lub zmienne środowiskowe.
-
-#### Algorytm jako sztuka
-Piękno kreatywnego kodowania często leży nie tylko w końcowym efekcie wizualnym lub dźwiękowym, ale w samym algorytmie — sekwencji instrukcji, które artysta pisze, aby kształtować sposób przetwarzania i prezentowania informacji. To sprawia, że ​​proces tworzenia (sam kod) jest tak samo częścią sztuki, jak produkt końcowy.
+W kreatywnym kodowaniu dane stają się surowcem, którym artyści swobodnie manipulują. Podobnie jak malarz miesza 
+pigmenty, by uzyskać odpowiedni kolor, programista przekształca dane – czy to liczby, tekst, czy inne formy 
+informacji – aby tworzyć unikalne wizualne lub dźwiękowe efekty.
 
 #### Interdyscyplinarność
-Pomysł, że kodowanie jest pędzlem XXI wieku, odzwierciedla mieszanie technologii z tradycyjnymi formami sztuki. Jest to uznanie, że kodowanie nie jest już tylko dla inżynierów lub naukowców, ale nową formą umiejętności czytania i pisania, która pozwala każdemu angażować się w technologię w sposób kreatywny i ekspresyjny.
+Interdyscyplinarność w kreatywnym kodowaniu polega na łączeniu technologii z innymi dziedzinami, takimi jak sztuka, muzyka, design czy nauki humanistyczne. Kodowanie staje się narzędziem, które pozwala tworzyć projekty na styku różnych dyscyplin, umożliwiając współpracę między programistami, artystami, inżynierami i projektantami. Dzięki temu technologia przestaje być wyłącznie narzędziem inżynierów, a staje się uniwersalnym środkiem wyrazu, który otwiera nowe możliwości twórcze w wielu obszarach.
+
+#### Dynamiczny i interaktywny
+Kodowanie pozwala twórcom wyjść poza statyczne formy sztuki. Dzięki niemu można przetwarzać informacje i tworzyć dzieła dynamiczne lub interaktywne. Przykładowo, dzieło sztuki może zmieniać się w czasie rzeczywistym w odpowiedzi na dane od użytkowników, zmienne środowiskowe czy inne zewnętrzne źródła informacji.
+
+#### Algorytm jako sztuka
+Piękno kreatywnego kodowania tkwi nie tylko w końcowym efekcie wizualnym czy dźwiękowym, ale także w samym algorytmie – w sekwencji instrukcji, które twórca pisze, aby nadać kształt przetwarzaniu i prezentacji informacji. To sprawia, że proces tworzenia kodu staje się integralną częścią dzieła, równie ważną jak jego ostateczny rezultat.
+
 
 ---
 ### Przydatne pojęcia 
