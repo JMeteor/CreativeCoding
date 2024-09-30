@@ -7,9 +7,11 @@
 3. Zapoznanie uczniów z biblioteką p5.js i wykorzystanie jej jako narzędzia do ekspresji twórczej.
 
 ## Intro (~10 min)
-1. Przedstawienie się opisanie mojej ścieżki edukacyjnej i zawodowej
+
+
+1. Przedstawienie siebie
 2. Dlaczego zainteresowałem się kreatywnym kodowaniem
-3. Moje pasje z życia prywatnego
+3. Opis przebiegu zajęć
 4. Ice breaker: przedstawienie się studentów i powiedzenia jednego faktu o sobie (pasji, zainteresowaniu)
 
 ## Wstęp do Creative Coding (~35 min)
