@@ -177,6 +177,50 @@ W swoim projekcie Land Lines Lieberman używa uczenia maszynowego, zoptymalizowa
 
 ## JavaScript
 
+**JavaScript** to język skryptowy działający głównie w przeglądarkach internetowych. Jest interpretowany (nie wymaga kompilacji) i służy do tworzenia dynamicznych, interaktywnych elementów na stronach.
+- **Dynamiczny i luźno typowany**: brak konieczności deklarowania typów (w przeciwieństwie do Javy czy C). Istnieje TypeScript który w praktyce jest niezbędny przy dużych projektach
+- Programowanie obiektowe jest opcjonalne, w przeciwieństwie do np. Javy, gdzie struktura klas jest obowiązkowa.
+- **Interaktywność**: możliwość natychmiastowego zobaczenia efektów kodu.
+
+Deklaracje zmiennych
+- **`var`** – stara metoda deklaracji zmiennych (zakres funkcyjny).
+- **`let`** – bardziej współczesna wersja zmiennych (zakres blokowy).
+- **`const`** – zmienne, które nie mogą być ponownie przypisane.
+
+```javascript
+let x = 5;
+const y = 10;
+var z = "Hello";
+```
+
+#### Typy danych
+
+- **Primitives**: `number`, `string`, `boolean`, `null`, `undefined`.
+- **Obiekty**: `object`, `array`, `function` (funkcje to również obiekty).
+- Luźne typowanie – zmienne mogą zmieniać typ w trakcie działania programu:
+```javascript
+let a = 10;    // liczba
+a = "Hello";   // teraz a jest stringiem
+```
+
+#### Funkcje
+
+Standardowa funkcja
+```javascript
+function greet() {
+  console.log("Cześć, Świecie!");
+}
+```
+
+Funkcja z parametrami
+```javascript
+function add(a, b) {
+  return a + b;
+}
+```
+
+---
+
 ## Podstawy p5.js
 
 - Podstawowowe elementy składni JavaScript
