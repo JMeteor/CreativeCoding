@@ -20,4 +20,7 @@
 
 ## Przydatne linki
 - [Dokumentacja p5.js](https://p5js.org/reference/)
+- [The Coding Traing - Daniel Shiffman](https://thecodingtrain.com/)
+- [Processing](https://processing.org/)
+- [Nature of Code - Daniel Shiffman](https://natureofcode.com/)
 - [Link do grupy na Discordzie](https://discord.gg/TODO)
