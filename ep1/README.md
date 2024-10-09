@@ -8,18 +8,11 @@
 
 ## Intro (~10 min)
 
-
-1. Przedstawienie siebie
-2. Dlaczego zainteresowałem się kreatywnym kodowaniem
-3. Opis przebiegu zajęć
-4. Ice breaker: przedstawienie się studentów i powiedzenia jednego faktu o sobie (pasji, zainteresowaniu)
-
 ## Wstęp do Creative Coding (~35 min)
 
 Celem tych lekcji jest ukazanie kodowania w nowym, szerszym kontekście. W nauce informatyki często koncentrujemy się na praktycznych umiejętnościach, takich jak bazy danych, systemy czy algorytmy. Choć są one istotne, mogą ograniczać nasze postrzeganie kodowania.
 
 Kreatywność w programowaniu wnosi do niego elementy wyobraźni i twórczości, pozwalając na swobodną eksplorację pomysłów, zamiast sztywnego podążania za regułami. Kodowanie może być nie tylko logiczne, ale także ekspresyjne, stając się narzędziem do tworzenia interaktywnych instalacji, sztuki, gier czy urządzeń ubieralnych (wearables).
-
 
 
 ### Czym jest kreatywne kodowania?
