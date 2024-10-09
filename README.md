@@ -7,8 +7,8 @@
 
 ## Plan zajęć
 
-- EP1: Wprowadzenie do kreatywnego programowania
-- EP2: Podstawy JavaScript i programowania w Processing
+- EP1: Wprowadzenie do kreatywnego programowania, Podstawy JavaScript i programowania w p5js
+- EP2: Kolory, kształty i rysowanie w p5.js
 - EP3: Animacje i interakcje z użytkownikiem
 - EP4: Obrazy i manipulowanie pixelami
 - EP5: Programowanie obiektowe w p5.js
