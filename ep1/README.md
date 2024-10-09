@@ -173,19 +173,22 @@ W swoim projekcie Land Lines Lieberman używa uczenia maszynowego, zoptymalizowa
 
 
 ---
+
 # Wstęp do JavaScript'u i p5.js
 
 ## JavaScript
 
 **JavaScript** to język skryptowy działający głównie w przeglądarkach internetowych. Jest interpretowany (nie wymaga kompilacji) i służy do tworzenia dynamicznych, interaktywnych elementów na stronach.
-- **Dynamiczny i luźno typowany**: brak konieczności deklarowania typów (w przeciwieństwie do Javy czy C). Istnieje TypeScript który w praktyce jest niezbędny przy dużych projektach
+
+- **Dynamiczny i luźno typowany**: brak konieczności deklarowania typów (w przeciwieństwie do Javy czy C). Istnieje 
+  TypeScript, który w praktyce jest niezbędny przy dużych projektach
 - Programowanie obiektowe jest opcjonalne, w przeciwieństwie do np. Javy, gdzie struktura klas jest obowiązkowa.
 - **Interaktywność**: możliwość natychmiastowego zobaczenia efektów kodu.
 
 Deklaracje zmiennych
-- **`var`** – stara metoda deklaracji zmiennych (zakres funkcyjny).
 - **`let`** – bardziej współczesna wersja zmiennych (zakres blokowy).
 - **`const`** – zmienne, które nie mogą być ponownie przypisane.
+- **`var`** – stara metoda deklaracji zmiennych (zakres funkcyjny).
 
 ```javascript
 let x = 5;
@@ -193,11 +196,12 @@ const y = 10;
 var z = "Hello";
 ```
 
-#### Typy danych
+### Typy danych
 
 - **Primitives**: `number`, `string`, `boolean`, `null`, `undefined`.
-- **Obiekty**: `object`, `array`, `function` (funkcje to również obiekty).
-- Luźne typowanie – zmienne mogą zmieniać typ w trakcie działania programu:
+- **Obiekty**: `object`, `array`, `function` (funkcje to również obiekty). 
+ 
+Luźne typowanie – zmienne mogą zmieniać typ w trakcie działania programu:
 ```javascript
 let a = 10;    // liczba
 a = "Hello";   // teraz a jest stringiem
@@ -223,44 +227,70 @@ function add(a, b) {
 
 ## Podstawy p5.js
 
-- Podstawowowe elementy składni JavaScript
-- Zrozumienie pojęć, takich jak obiekty, tablice, zmienne i funkcje
-- Pokazanie uczniom łatwości wykonywania kodu przy użyciu platformy p5.js
-- Szybkie przejście — uczestnicy wykonują i zmieniają prostą instrukcję (np. zmianę koloru)
+### Processing
+Processing to otwartoźródłowy język programowania i środowisko, stworzone w 2001 roku przez Casey'a Reasa i Bena Fry'a, z myślą o artystach, projektantach i osobach bez zaawansowanego doświadczenia w programowaniu. Jego celem jest ułatwienie tworzenia interaktywnych projektów, wizualizacji i generatywnej sztuki. Processing oparty jest na języku Java, ale dzięki prostocie składni jest łatwy do nauki i doskonały do szybkiego prototypowania projektów artystycznych, graficznych i dźwiękowych.
+
+### Processing Foundation
+Processing Foundation to organizacja non-profit, która została założona w celu wspierania rozwoju narzędzi i społeczności związanych z kreatywnym kodowaniem. Jej misją jest uczynienie technologii bardziej dostępną, szczególnie dla artystów, projektantów, edukatorów i osób, które mogą nie mieć zaawansowanego doświadczenia w programowaniu.
+
+Foundation rozwija i utrzymuje otwartoźródłowe projekty, takie jak:
+
+- **Processing** – środowisko programistyczne i język do tworzenia sztuki generatywnej, wizualizacji danych oraz 
+interaktywnych projektów.
+- **p5.js** – biblioteka JavaScript umożliwiająca tworzenie interaktywnych dzieł sztuki w przeglądarkach internetowych.
+- **Processing.py** – wersja Processing dla programistów Pythona.
 
 ### Czym jest p5.js
 
-p5.js to przyjazne narzędzie do nauki kodowania i tworzenia sztuki. Jest to darmowa i open-source'owa biblioteka JavaScript stworzona przez inkluzywną, wspierającą społeczność. p5.js wita artystów, projektantów, początkujących, edukatorów i każdego!
+p5.js to biblioteka JavaScript, będąca współczesną, webową wersją Processing, stworzona przez Lauren McCarthy. Umożliwia pisanie kodu w stylu Processing, ale z pełnym wsparciem dla przeglądarek internetowych, co pozwala tworzyć interaktywne aplikacje działające bezpośrednio w przeglądarce. Podobnie jak Processing, p5.js ma na celu ułatwienie tworzenia generatywnej sztuki i interaktywnych projektów, ale korzysta z technologii webowych (HTML, CSS, JavaScript).
 
-- dzięki p5.js możemy tworzyć audiowizualne, interaktywne i eksperymentalne projekty na strony webowe.
+### JavaScript vs p5.js
 
-Brief introduction about p5.js library, its creators and explain why it's suitable for our creative coding class.
+**p5.js** to biblioteka JavaScript, która upraszcza proces tworzenia interaktywnych grafik, animacji i innych form generatywnej sztuki. Jest zbudowana na bazie **JavaScript** i działa w przeglądarce internetowej, ale jej celem jest ułatwienie tworzenia projektów wizualnych, szczególnie dla osób, które mogą nie być zaznajomione z tradycyjnym programowaniem.
+
+- **p5.js** upraszcza wiele operacji związanych z rysowaniem, animacją i interakcjami. Zamiast pisać złożony kod, można szybko stworzyć grafikę za pomocą kilku linii.
+- **JavaScript** sam w sobie nie ma wbudowanych narzędzi do grafiki (poza surowym API, jak **Canvas API**), więc tworzenie rysunków i animacji wymaga więcej kodu i wiedzy o strukturach przeglądarki.
+
+**p5.js** posiada wbudowane funkcje do rysowania kształtów, obsługi dźwięku, animacji i interakcji (np. `ellipse()`, `rect()`, `line()`, `background()`, `fill()`), co pozwala na szybkie tworzenie wizualnych efektów.
 
 ### Konfiguracja środowiska programistycznego
 
 Aby rozpocząć pisanie kodu przy użyciu p5.js, musisz skonfigurować środowisko programistyczne, którego będziesz używać do pisania i zapisywania swoich programów. Do wyboru mamy edytor webowy [p5.js Web Editor](https://editor.p5js.org/), lub program do zainstalowania lokalnie [Visual Studio Code (VS Code)](https://code.visualstudio.com/).
 
-### Pierwszy skecz w p5.js
+### Programowanie w p5.js
 
-```javascript
-function setup() {
-  createCanvas(400, 400);
-}
+Core function
+1. preload()
+2. setup()
+3. draw() **∞**
 
-function draw() {
-  background(220);
-}
-```
+### setup()
+* Będziemy używać naprzemiennie słowa "projekt" lub "skecz" - skecz bardziej odzwierciedla ponieważ będziemy rysować
+- Funkcja `setup()` wywoływana jest tylko przy starcie skeczu. Jeżeli używamy funkcji `preload()` np. do ładowania zasobów (ang. assets) czyli plików i danych które są wykorzystywane w programie (grafiki, dźwięki, fonty, dane json, xml)
+    - Fonty nie czcionka!!! (https://fontnieczcionka.pl/)
+- Tworzenie płótna przy pomocy funkcji `createCanvas(width, height)`
+-
 
-```javascript
-function draw() {
-  background(220);
-  circle(200,200,100);
-}
-```
+### draw()
+- funkcja `background(r,g,b)` koloruje płótna naszego skeczu, raczej używana jest w funkcji `draw()` ale możemy użyć jej w `setup()`
+-
+- funkcja `rect(x,y, width, height, *round)`
+    - Układ współrzędnych kartezjańskich X/Y
+    - w p5 działamy tylko w jednej ćwiartce systemu X+ Y+
+    - punkt (0,0) jest w lewym górnym rogu - powodem jest specyfikacji przeglądarek, gdzie dokument
+    - zaprezentować dokumentacje https://p5js.org/reference/p5/rect/, dodatkowe parametry
 
-funkcja `draw()` rysuję się w nieskończoność, ok 60 razy na sekundę (60-FPS).
+**Budowa Funkcja**
+- `rect()` - nazwa funkcji
+- `x, y, w` - parametry
+- `[h], [tl], [tr], [br], [bl]` - opcjonalne parametr
 
-```javascript
+**Różnica między parametrami a argumentami:**
+- **Parametry** to zmienne, które funkcja przyjmuje w swojej definicji (np. `x`, `y`, `w`).
+- **Argumenty** to wartości, które są przekazywane do tych parametrów podczas wywoływania funkcji (np. w wywołaniu `rect(10, 20, 100)`, `10`, `20` i `100` to argumenty przekazane do parametrów `x`, `y` i `w`).
+
+**Warstwowanie** (ang. layering)
+- Kolejność ma znaczenie, tak samo będzie miało znaczenie w HTML i CSS, leci od góry do dołu
+
 
 
